@@ -1,0 +1,5 @@
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+NEXT_PUBLIC_API_URL="http://localhost:3000/api/v1"
+DATABASE_URL="URL_TO_YOUR_DATABASE"
+SESSION_SECRET="BravioByBrainlens202510"
+
