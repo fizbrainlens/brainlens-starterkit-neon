@@ -154,6 +154,7 @@ npx shadcn-ui@latest add [component-name]
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run Biome linter
+- `npm run lint:fix` - Run Biome auto fix linter
 - `npm run format` - Format code with Biome
 - `npm run db:generate` - Generate database migrations
 - `npm run db:migrate` - Run database migrations
@@ -236,8 +237,8 @@ This project is open source and available under the [MIT License](LICENSE).
 If you have any questions or run into issues:
 
 1. Check the [documentation](#-learn-more)
-2. Search [existing issues](https://github.com/your-repo/issues)
-3. Create a [new issue](https://github.com/your-repo/issues/new)
+2. Search [existing issues](https://github.com/fizbrainlens/brainlens-starterkit-neon/issues)
+3. Create a [new issue](https://github.com/fizbrainlens/brainlens-starterkit-neon/issues/new/choose)
 
 ---
 

@@ -2,13 +2,13 @@ import { migrate } from "drizzle-orm/neon-http/migrator";
 import { db } from ".";
 
 async function main() {
-    console.log("Running migrations...");
-    await migrate(db, { migrationsFolder: "drizzle" });
-    console.log("Migrations finised.");
-    process.exit(0);
+	console.log("Running migrations...");
+	await migrate(db, { migrationsFolder: "drizzle" });
+	console.log("Migrations finised.");
+	process.exit(0);
 }
 
 main().catch((err) => {
-    console.error(err);
-    process.exit(1);
+	console.error(err);
+	process.exit(1);
 });
