@@ -16,6 +16,16 @@ A modern, full-stack Next.js starter template with Neon PostgreSQL database inte
 - **Biome** - Fast linter and formatter (ESLint/Prettier replacement)
 - **Security** - bcrypt for password hashing and comprehensive error handling
 
+## ✨ Recent Project Updates
+
+This starter kit has been extended with the following features:
+
+- **CRM Backend & API**: Integrated endpoints and database schema for Contacts, Templates, and Campaigns.
+- **Quotations & Invoices Flow**: Added an approval workflow for quotations and seamless generation of invoices with precise amount rounding.
+- **PIN-Based Authentication**: Implemented a secure OTP/PIN-login UI.
+- **Custom UI & Landing Pages**: Built a dynamic Hero section and custom-designed Menu pages matching Figma designs.
+- **Agent Skills (SKILLS)**: Integrated `.agents/skills/` containing custom AI assistant tools (like `shadcn` and `find-skills`) which extend the AI's native capabilities for code generation, UI building, and project management directly within the IDE.
+
 ## 📋 Prerequisites
 
 - Node.js 18+
