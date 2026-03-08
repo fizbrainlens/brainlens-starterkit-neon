@@ -4,7 +4,7 @@ import { geistMono, geistSans } from "@/fonts";
 import { cn } from "@/lib/utils";
 import { Geist } from "next/font/google";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
 	title: "Brainlens Starter Kit",
